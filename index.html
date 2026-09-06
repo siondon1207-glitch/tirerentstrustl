@@ -1,23 +1,1129 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://guide.reliabledone.com/winter-tire-spec#article",
+        "isPartOf": {
+          "@type": "WebPage",
+          "@id": "https://guide.reliabledone.com/winter-tire-spec"
+        },
+        "headline": "2026 스노우타이어 성능 분석 및 타이어렌탈 요금제 종합 가이드",
+        "description": "국내외 주요 스노우타이어 30종 모델의 가격표, 규격별 렌탈 요금, 제동 성능 비교 및 타이어 호텔 보관 비용 절약 전략을 분석합니다.",
+        "datePublished": "2026-09-01T09:00:00+09:00",
+        "dateModified": "2026-09-06T15:00:00+09:00",
+        "inLanguage": "ko-KR",
+        "author": {
+          "@type": "Organization",
+          "name": "모빌리티 안전 기술 분석팀"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "차량 관리 엔지니어링 리포트"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "name": "2026년 추천 스노우타이어 및 렌탈 주요 라인업",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "한국타이어 윈터 아이셉트 에보3 W330"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "금호타이어 윈터크래프트 WP72"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "넥센타이어 윈가드 스포츠2"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "미쉐린 X-ICE SNOW"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "콘티넨탈 바이킹콘택트 7"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://guide.reliabledone.com/winter-tire-spec#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "스노우타이어 교체 시기는 언제 가장 적절한가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "일 평균 기온이 영상 7도 이하로 떨어지는 11월 중순부터 12월 초순 사이가 가장 권장됩니다. 고무 컴파운드가 굳기 전에 장착해야 제동 안전성을 유지할 수 있습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "스노우타이어 일시불 구매와 타이어렌탈의 차이점은 무엇인가요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "일시불 구매는 초기 목돈이 소요되나 장기적으로 총비용이 낮을 수 있습니다. 반면 타이어렌탈은 초기 등록비 부담 없이 월 분납으로 이용하며, 보관 서비스, 위치교환, 휠 얼라인먼트 점검 혜택이 패키지로 제공되어 관리 편의성이 높습니다."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "전기차 전용 스노우타이어를 따로 장착해야 하나요?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "전기차는 공차중량이 내연기관차보다 200kg 이상 무겁고 초반 토크가 강력하므로 고하중 규격(HL 또는 XL)과 내마모 컴파운드, 흡음재가 적용된 전기차 전용 윈터타이어 장착이 필수적입니다."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center, dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend, table, caption,
+    tbody, tfoot, thead, tr, th, td, article, aside,
+    canvas, details, embed, figure, figcaption, footer,
+    header, hgroup, menu, nav, output, ruby, section,
+    summary, time, mark, audio, video, input, select, button {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.85;
+      color: #1e293b;
+      background-color: #f8fafc;
+      padding: 0;
+      margin: 0;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+      letter-spacing: -0.015em;
+    }
+
+    .wrapper {
+      max-width: 960px;
+      margin: 30px auto;
+      padding: 40px 30px;
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(15, 23, 42, 0.05);
+    }
+
+    header {
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 25px;
+      margin-bottom: 35px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      border-radius: 20px;
+      background-color: #e0f2fe;
+      color: #0369a1;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: 2.15rem;
+      font-weight: 800;
+      color: #0f172a;
+      line-height: 1.35;
+      margin-bottom: 15px;
+    }
+
+    .meta-info {
+      font-size: 0.92rem;
+      color: #64748b;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    h2 {
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: #1e3a8a;
+      margin-top: 45px;
+      margin-bottom: 18px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #cbd5e1;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #334155;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+
+    h4 {
+      font-size: 1.08rem;
+      font-weight: 600;
+      color: #475569;
+      margin-top: 20px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 18px;
+      font-size: 1.03rem;
+      color: #334155;
+      text-align: justify;
+    }
+
+    strong, b {
+      font-weight: 700;
+      color: #0f172a;
+    }
+
+    .toc {
+      background-color: #f1f5f9;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 30px 0;
+      border-left: 5px solid #2563eb;
+    }
+
+    .toc h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      border-bottom: none;
+      padding-bottom: 0;
+      color: #0f172a;
+    }
+
+    .toc ol {
+      padding-left: 20px;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    .toc li {
+      margin-bottom: 6px;
+      font-size: 0.98rem;
+      color: #2563eb;
+      font-weight: 600;
+    }
+
+    .info-panel {
+      background-color: #f0fdf4;
+      border-left: 5px solid #16a34a;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 24px 0;
+      color: #166534;
+    }
+
+    .alert-panel {
+      background-color: #fef2f2;
+      border-left: 5px solid #dc2626;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 24px 0;
+      color: #991b1b;
+    }
+
+    .tip-panel {
+      background-color: #fffbeb;
+      border-left: 5px solid #d97706;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 24px 0;
+      color: #92400e;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.95rem;
+    }
+
+    th, td {
+      border: 1px solid #e2e8f0;
+      padding: 12px 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f8fafc;
+      color: #1e293b;
+      font-weight: 700;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fdfdfd;
+    }
+
+    tr:hover {
+      background-color: #f1f5f9;
+    }
+
+    .chart-container {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 25px 0;
+    }
+
+    .bar-group {
+      margin-bottom: 18px;
+    }
+
+    .bar-label {
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: #334155;
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .bar-track {
+      background-color: #e2e8f0;
+      height: 22px;
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .bar-fill {
+      height: 100%;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 10px;
+      color: #ffffff;
+      font-size: 0.8rem;
+      font-weight: 700;
+    }
+
+    .bar-fill.blue { background-color: #2563eb; }
+    .bar-fill.cyan { background-color: #0284c7; }
+    .bar-fill.amber { background-color: #d97706; }
+    .bar-fill.red { background-color: #dc2626; }
+
+    .grid-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin: 25px 0;
+    }
+
+    .card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .card h4 {
+      margin-top: 0;
+      color: #0f172a;
+      font-size: 1.1rem;
+    }
+
+    .calculator-box {
+      background-color: #f8fafc;
+      border: 2px solid #93c5fd;
+      border-radius: 12px;
+      padding: 26px;
+      margin: 30px 0;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #1e293b;
+      font-size: 0.95rem;
+    }
+
+    .form-group select,
+    .form-group input {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      background-color: #ffffff;
+      color: #1e293b;
+    }
+
+    .btn-calc {
+      display: inline-block;
+      width: 100%;
+      background-color: #2563eb;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1.05rem;
+      padding: 12px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn-calc:hover {
+      background-color: #1d4ed8;
+    }
+
+    .calc-result {
+      margin-top: 22px;
+      padding: 18px;
+      background-color: #eff6ff;
+      border-radius: 8px;
+      border: 1px solid #bfdbfe;
+      display: none;
+    }
+
+    .calc-result h4 {
+      margin-top: 0;
+      color: #1e40af;
+      margin-bottom: 10px;
+    }
+
+    .calc-result p {
+      margin-bottom: 8px;
+      font-size: 0.96rem;
+    }
+
+    dl.faq-list {
+      margin: 25px 0;
+    }
+
+    dl.faq-list dt {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #0f172a;
+      margin-top: 22px;
+      padding-left: 12px;
+      border-left: 4px solid #2563eb;
+    }
+
+    dl.faq-list dd {
+      margin-top: 8px;
+      margin-left: 0;
+      padding: 12px 16px;
+      background-color: #f8fafc;
+      border-radius: 6px;
+      color: #334155;
+      font-size: 0.98rem;
+    }
+
+    .keyword-cloud {
+      background-color: #f1f5f9;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 30px 0;
+    }
+
+    .keyword-cloud h4 {
+      margin-top: 0;
+      font-size: 0.98rem;
+      color: #475569;
+      margin-bottom: 12px;
+    }
+
+    .keyword-cloud span {
+      display: inline-block;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      padding: 4px 10px;
+      border-radius: 16px;
+      font-size: 0.83rem;
+      color: #334155;
+      margin: 3px 2px;
+    }
+
+    .reference-section {
+      margin-top: 40px;
+      padding-top: 25px;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    .reference-section h4 {
+      margin-top: 0;
+      color: #0f172a;
+      font-size: 1.05rem;
+    }
+
+    .reference-section ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 10px;
+    }
+
+    .reference-section li {
+      margin-bottom: 10px;
+      font-size: 0.92rem;
+    }
+
+    .reference-section a {
+      color: #2563eb;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+
+    .reference-section a:hover {
+      color: #1d4ed8;
+    }
+
+    @media (max-width: 768px) {
+      .wrapper {
+        padding: 20px 15px;
+        margin: 10px;
+      }
+      h1 {
+        font-size: 1.65rem;
+      }
+      h2 {
+        font-size: 1.35rem;
+      }
+      th, td {
+        padding: 8px 10px;
+        font-size: 0.86rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <header>
+    <span class="badge">2026 모빌리티 안전 기술 백서</span>
+    <h1>스노우타이어 가격표 비교 및 타이어렌탈 종합 가이드</h1>
+    <div class="meta-info">
+      <span>업데이트 기준일: 2026년 동절기 대비</span>
+      <span>작성 지원: 인공지능 모빌리티 데이터 연구소</span>
+      <span>검토: 타이어 관리 및 공학 전문가 자문</span>
+    </div>
+  </header>
+
+  <p>
+    겨울철 도로는 영하의 기온과 눈, 결빙, 블랙아이스 현상으로 인해 마찰력이 급격히 저하됩니다. 기온이 섭씨 7도 이하로 내려가면 일반 사계절 타이어의 고무 컴파운드는 경화되기 시작하여 접지력을 잃게 되므로, 노면 안전성을 확보하기 위해 전문 스노우타이어 장착이 적극 권장됩니다.
+  </p>
+  <p>
+    본 가이드에서는 2026년 최신 기술 동향을 기반으로 한국타이어, 금호타이어, 넥센타이어 등 국내 3사부터 미쉐린, 콘티넨탈, 브리지스톤, 피렐리 등 글로벌 프리미엄 브랜드의 30여 개 대표 제품군을 체계적으로 분류하였습니다. 또한 목돈 지출을 분산시키는 타이어렌탈 요금제, 약정 조건, 보관 서비스 요금, 온라인 커뮤니티 성지 실거래가 분석까지 모든 정보를 한자리에서 상세히 제공합니다.
+  </p>
+
+  <nav class="toc">
+    <h2>목차 안내</h2>
+    <ol>
+      <li>스노우타이어의 화학적 및 구조적 작동 메커니즘</li>
+      <li>사계절 타이어 대 스노우타이어 노면별 제동거리 정밀 비교</li>
+      <li>알파인(Alpine) 계열과 노르딕(Nordic) 계열의 기술적 차이점</li>
+      <li>스노우타이어 일시불 구매 대 타이어렌탈 요금제 손익 분석</li>
+      <li>브랜드별 대표 스노우타이어 30종 라인업 및 등급표</li>
+      <li>타이어렌탈 계약 시 필수 확인 조항 (위약금, 약정, 혜택, 보관)</li>
+      <li>동호회 및 커뮤니티 실차주 평가와 온라인 성지 좌표 공략법</li>
+      <li>2026 전기차 전용 스노우타이어 요구 규격 및 차별점</li>
+      <li>실시간 스노우타이어 렌탈 대 구매 견적 계산기</li>
+      <li>타이어 호텔 보관 서비스 이용 체계 및 장착 전문점 안내</li>
+      <li>AI 및 디지털 포털을 활용한 타이어 최적 탐색 기법</li>
+      <li>자주 묻는 질문(FAQ) 12문 12답</li>
+      <li>공식 인증 출처 및 기술 규정 참조처</li>
+    </ol>
+  </nav>
+
+  <h2>1. 스노우타이어의 화학적 및 구조적 작동 메커니즘</h2>
+  <p>
+    스노우타이어(윈터타이어)가 겨울철 혹한기 노면에서 탁월한 접지 성능을 발휘하는 핵심적인 이유는 특수 실리카 컴파운드 배합과 수천 개의 미세 사이프(Sipe) 패턴 기술에 있습니다.
+  </p>
+  <p>
+    일반 사계절 타이어나 여름용 고성능 타이어는 영상의 기온에 최적화되어 설계됩니다. 이들 타이어의 트레드 고무는 기온이 영하로 떨어질 때 유리전이온도(Tg) 영역에 진입하면서 딱딱하게 굳어버리는 경화 현상을 겪게 됩니다. 고무가 탄성을 잃으면 노면의 미세한 굴곡을 움켜쥐지 못하고 미끄러지게 됩니다.
+  </p>
+  <p>
+    반면 윈터타이어는 고함량 마이크로 실리카와 천연 오일, 유연성 개선 중합체를 배합하여 영하 20도 이하의 극한 환경에서도 고무 본연의 유연성과 탄성을 고스란히 유지합니다. 이를 통상 도로교통공학에서는 <strong>7도의 법칙</strong>이라 명명합니다. 대기 기온이 7도 밑으로 하강하면 마찰계수 곡선이 역전되어 윈터타이어의 제동력이 일반 타이어를 압도하게 됩니다.
+  </p>
+
+  <div class="info-panel">
+    <strong>기술 상식: 3PMSF (Three-Peak Mountain Snowflake) 마크</strong><br>
+    유럽 및 북미 규격에서 혹한기 제동 시험을 통과한 타이어에만 각인되는 3개의 산봉우리와 눈꽃 마크입니다. 단순 M+S(Mud and Snow) 마크와 달리 혹독한 동결 노면 견인력 테스트를 공인 통과했음을 입증하는 표준 인증 규격입니다.
+  </div>
+
+  <p>
+    스노우타이어의 트레드 표면에는 일반 타이어 대비 3배에서 4배에 이르는 수많은 3차원 지그재그 사이프가 설계되어 있습니다. 이 미세한 칼집 형상의 홈들은 차량 하중이 전달될 때 좌우로 벌어지면서 눈을 꽉 움켜쥐는 스노우 쉬어링(Snow Shearing) 효과를 만들어냅니다. 동시에 얼음 표면에 형성되는 미세 수막을 순간적으로 흡수하여 블록 엣지가 빙판을 직접 긁어내는 엣지 효과를 극대화합니다.
+  </p>
+
+  <h2>2. 사계절 타이어 대 스노우타이어 노면별 제동거리 정밀 비교</h2>
+  <p>
+    실제 안전 연구 기관의 주행 제동 시험 데이터에 따르면 스노우타이어의 제동거리 단축 효과는 운전자의 생명과 직결되는 수준의 차이를 보입니다. 특히 시속 50킬로미터로 주행 중 눈길 및 빙판길에서 급제동을 실시할 때 그 격차는 매우 확연합니다.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>시험 노면 조건</th>
+        <th>주행 속도</th>
+        <th>일반 사계절 타이어</th>
+        <th>스노우타이어 (알파인)</th>
+        <th>제동거리 단축 차이</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>눈길 (압설 노면)</td>
+        <td>시속 50 km/h</td>
+        <td>약 37.8 m</td>
+        <td>약 18.5 m</td>
+        <td>19.3 m 단축 (약 51% 감소)</td>
+      </tr>
+      <tr>
+        <td>빙판길 (블랙아이스)</td>
+        <td>시속 40 km/h</td>
+        <td>약 32.5 m</td>
+        <td>약 19.2 m</td>
+        <td>13.3 m 단축 (약 41% 감소)</td>
+      </tr>
+      <tr>
+        <td>젖은 노면 (영상 2도)</td>
+        <td>시속 80 km/h</td>
+        <td>약 41.2 m</td>
+        <td>약 35.8 m</td>
+        <td>5.4 m 단축 (약 13% 감소)</td>
+      </tr>
+      <tr>
+        <td>마른 노면 (영상 0도)</td>
+        <td>시속 80 km/h</td>
+        <td>약 33.4 m</td>
+        <td>약 34.1 m</td>
+        <td>0.7 m 차이 (유사 수준 유지)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="chart-container">
+    <h4 style="margin-top: 0; margin-bottom: 15px; color: #0f172a;">눈길 시속 50km/h 급제동 거리 비교 데이터 시각화</h4>
+    
+    <div class="bar-group">
+      <div class="bar-label">
+        <span>일반 사계절 타이어 (기온 영하 5도)</span>
+        <span>37.8 m</span>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill red" style="width: 100%;">37.8 m</div>
+      </div>
+    </div>
+
+    <div class="bar-group">
+      <div class="bar-label">
+        <span>올웨더 타이어 (3PMSF 인증형)</span>
+        <span>26.4 m</span>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill amber" style="width: 70%;">26.4 m</div>
+      </div>
+    </div>
+
+    <div class="bar-group">
+      <div class="bar-label">
+        <span>스노우타이어 알파인 계열</span>
+        <span>18.5 m</span>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill blue" style="width: 49%;">18.5 m</div>
+      </div>
+    </div>
+
+    <div class="bar-group">
+      <div class="bar-label">
+        <span>스노우타이어 노르딕 계열</span>
+        <span>16.1 m</span>
+      </div>
+      <div class="bar-track">
+        <div class="bar-fill cyan" style="width: 42%;">16.1 m</div>
+      </div>
+    </div>
+  </div>
+
+  <p>
+    위 제동거리 분석 데이터에서 볼 수 있듯이 압설 노면에서 일반 사계절 타이어는 제동거리가 거의 40미터에 육박하여 도심 교차로 충돌이나 보행자 사고로 직결될 위험이 큽니다. 반면 스노우타이어는 18미터 안팎에서 차량을 완전히 정지시킬 수 있어 돌발 상황에서 충돌을 회피하거나 피해를 획기적으로 경감시킵니다.
+  </p>
+
+  <h2>3. 알파인(Alpine) 계열과 노르딕(Nordic) 계열의 기술적 차이점</h2>
+  <p>
+    스노우타이어를 선택할 때 소비자가 가장 먼저 분류해야 할 기준은 바로 알파인형 제품인지, 노르딕형 제품인지 구분하는 것입니다. 두 계열은 설계 철학과 주행 환경 타깃이 명확히 다릅니다.
+  </p>
+
+  <div class="grid-cards">
+    <div class="card">
+      <h4>알파인(Alpine) 계열 스노우타이어</h4>
+      <p><strong>주요 특징:</strong> 한국 내륙 및 수도권, 고속도로 주행 환경에 가장 적합한 타입입니다.</p>
+      <p><strong>트레드 패턴:</strong> 비대칭 및 방향성 V형 패턴이 혼용되며, 고속 코너링 안정성과 배수성을 강조합니다.</p>
+      <p><strong>속도 등급:</strong> H등급(210 km/h) 또는 V등급(240 km/h)까지 지원하여 겨울철 마른 노면 고속 주행 시에도 핸들링 응답성이 뛰어납니다.</p>
+      <p><strong>대표 모델:</strong> 한국타이어 윈터 아이셉트 에보3, 금호 윈터크래프트 WP72, 넥센 윈가드 스포츠2, 미쉐린 파일롯 알핀 5.</p>
+    </div>
+    <div class="card">
+      <h4>노르딕(Nordic) 계열 스노우타이어</h4>
+      <p><strong>주요 특징:</strong> 강원 산간 지역, 폭설이 잦은 적설지대, 혹한의 얼음 노면에 특화된 스터드리스 타이어입니다.</p>
+      <p><strong>트레드 패턴:</strong> 블록이 매우 깊고 유연한 스펀지형 발포 고무를 적용하여 빙판길 마찰력을 극대화합니다.</p>
+      <p><strong>속도 등급:</strong> T등급(190 km/h) 또는 Q등급(160 km/h)으로 고속 핸들링은 다소 무르지만 얼음판 제동력은 압도적입니다.</p>
+      <p><strong>대표 모델:</strong> 한국타이어 윈터 아이셉트 iZ2, 금호 윈터크래프트 Wi61, 미쉐린 X-ICE SNOW, 콘티넨탈 바이킹콘택트 7, 브리지스톤 블리작 VRX2.</p>
+    </div>
+  </div>
+
+  <h2>4. 스노우타이어 일시불 구매 대 타이어렌탈 요금제 손익 분석</h2>
+  <p>
+    겨울철 전용 타이어를 장착하려면 본체 구입비 외에도 탈장착 공임, 사계절 타이어를 보관할 장소와 보관료, 봄철 재교체 공임 등 부대비용이 정기적으로 발생합니다. 이에 따라 최근 몇 년 사이 렌탈 서비스에 대한 선호도가 급상승하고 있습니다.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>비교 항목</th>
+        <th>오프라인 매장 일시불 구매</th>
+        <th>인터넷 최저가 주문 후 장착</th>
+        <th>타이어렌탈 서비스 (넥센/한국/금호)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>초기 비용 지출</td>
+        <td>약 70만원 ~ 140만원 (4본 기준 목돈)</td>
+        <td>약 55만원 ~ 110만원 (배송비 별도)</td>
+        <td>0원 (초기 등록비 면제 프로모션 시)</td>
+      </tr>
+      <tr>
+        <td>월 환산 납입금</td>
+        <td>일시불 완납으로 없음</td>
+        <td>일시불 완납으로 없음</td>
+        <td>월 15,000원 ~ 35,000원 (제휴카드 시 0원 가능)</td>
+      </tr>
+      <tr>
+        <td>보관 서비스 (타이어 호텔)</td>
+        <td>별도 결제 (연간 6만~10만원 수준)</td>
+        <td>별도 결제 또는 자택 직접 보관</td>
+        <td>렌탈 멤버십 케어로 무상 또는 대폭 할인</td>
+      </tr>
+      <tr>
+        <td>사후 케어 서비스</td>
+        <td>단순 휠 밸런스 외 유상</td>
+        <td>모든 추가 공임 유상 청구</td>
+        <td>얼라인먼트 1~2회, 위치교환, 마모 보증</td>
+      </tr>
+      <tr>
+        <td>총소유비용 (3년 유지 기준)</td>
+        <td>약 110만원 ~ 180만원</td>
+        <td>약 90만원 ~ 150만원</td>
+        <td>약 80만원 ~ 140만원 (제휴 할인 극대화 시)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    타이어렌탈의 최대 장점은 초기 목돈 부담 없이 4본 전륜 및 후륜 세트를 즉시 교체할 수 있다는 점과, 연 2회 발생하는 타이어 교체 공임 및 보관비가 멤버십 패키지에 녹아있어 신경 쓸 일이 적다는 것입니다. 반면 약정 기간 중도 해지 시 발생하는 위약금과 의무 계약 기간이 존재한다는 점은 가입 전 면밀히 검토해야 할 단점입니다.
+  </p>
+
+  <h2>5. 브랜드별 대표 스노우타이어 30종 라인업 및 등급표</h2>
+  <p>
+    국내외 시장에서 유통되는 대표적인 스노우타이어 및 프리미엄 사계절, 렌탈 연계 모델 30종의 특징과 포지셔닝을 완벽히 정리한 요금 및 스펙표입니다.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>번호</th>
+        <th>제조사 브랜드</th>
+        <th>공식 모델명</th>
+        <th>제품 카테고리</th>
+        <th>추천 차종</th>
+        <th>평균 4본 일시불 예상가</th>
+        <th>월 예상 렌탈료</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>한국타이어</td><td>윈터 아이셉트 에보3 W330</td><td>알파인 프리미엄 세단</td><td>중대형 세단 및 스포츠 세단</td><td>약 75만원 ~ 110만원</td><td>월 21,000원 ~ 31,000원</td></tr>
+      <tr><td>2</td><td>한국타이어</td><td>윈터 아이셉트 에보3 X W330A</td><td>알파인 프리미엄 SUV</td><td>투싼, 싼타페, GV70, X5</td><td>약 82만원 ~ 125만원</td><td>월 23,000원 ~ 34,000원</td></tr>
+      <tr><td>3</td><td>한국타이어</td><td>윈터 아이셉트 RS3 W462</td><td>알파인 컴팩트 엔트리</td><td>아반떼, K3, 골프, 소형 SUV</td><td>약 52만원 ~ 78만원</td><td>월 16,000원 ~ 22,000원</td></tr>
+      <tr><td>4</td><td>한국타이어</td><td>윈터 아이셉트 iZ2 W616</td><td>노르딕 고접지형</td><td>강원권 승용, 후륜 구동차</td><td>약 60만원 ~ 85만원</td><td>월 18,000원 ~ 25,000원</td></tr>
+      <tr><td>5</td><td>한국타이어</td><td>윈터 아이셉트 X RW10</td><td>노르딕 SUV 전용</td><td>모하비, 렉스턴, 팰리세이드</td><td>약 78만원 ~ 115만원</td><td>월 22,000원 ~ 32,000원</td></tr>
+      <tr><td>6</td><td>한국타이어</td><td>아이온 아이셉트 IW01</td><td>전기차 전용 알파인</td><td>아이오닉5, EV6, 테슬라 Y</td><td>약 95만원 ~ 140만원</td><td>월 27,000원 ~ 39,000원</td></tr>
+      <tr><td>7</td><td>한국타이어</td><td>아이온 아이셉트 SUV IW01A</td><td>전기차 전용 SUV</td><td>EV9, 아이오닉7, 모델X</td><td>약 105만원 ~ 155만원</td><td>월 29,000원 ~ 43,000원</td></tr>
+      <tr><td>8</td><td>금호타이어</td><td>윈터크래프트 WP72</td><td>알파인 프리미엄 승용</td><td>그랜저, K8, G80, E클래스</td><td>약 68만원 ~ 98만원</td><td>월 19,000원 ~ 28,000원</td></tr>
+      <tr><td>9</td><td>금호타이어</td><td>윈터크래프트 WS71</td><td>알파인 프리미엄 SUV</td><td>쏘렌토, 싼타페, GV80</td><td>약 74만원 ~ 110만원</td><td>월 21,000원 ~ 31,000원</td></tr>
+      <tr><td>10</td><td>금호타이어</td><td>윈터크래프트 Wi61</td><td>노르딕 고빙판 승용</td><td>겨울 빙판길 주행 승용 전차종</td><td>약 58만원 ~ 82만원</td><td>월 17,000원 ~ 24,000원</td></tr>
+      <tr><td>11</td><td>금호타이어</td><td>윈터크래프트 Wi51</td><td>노르딕 소형 승용</td><td>경차 및 준중형 엔트리</td><td>약 46만원 ~ 68만원</td><td>월 14,000원 ~ 20,000원</td></tr>
+      <tr><td>12</td><td>넥센타이어</td><td>윈가드 스포츠2</td><td>알파인 가성비 스포츠</td><td>K5, 쏘나타, BMW 3시리즈</td><td>약 55만원 ~ 80만원</td><td>월 15,000원 ~ 23,000원</td></tr>
+      <tr><td>13</td><td>넥센타이어</td><td>윈가드 스포츠2 SUV</td><td>알파인 가성비 SUV</td><td>스포티지, 코나, 셀토스</td><td>약 62만원 ~ 88만원</td><td>월 17,000원 ~ 25,000원</td></tr>
+      <tr><td>14</td><td>넥센타이어</td><td>윈가드 ice PLUS</td><td>노르딕 승용형</td><td>강원 영서 및 결빙 구간 승용</td><td>약 50만원 ~ 74만원</td><td>월 15,000원 ~ 21,000원</td></tr>
+      <tr><td>15</td><td>넥센타이어</td><td>윈가드 ice</td><td>노르딕 컴포트</td><td>승차감 중심 패밀리 세단</td><td>약 48만원 ~ 70만원</td><td>월 14,000원 ~ 20,000원</td></tr>
+      <tr><td>16</td><td>넥센타이어</td><td>윈가드 윈스파이크</td><td>스터드 장착형 (산악용)</td><td>제설차량, 산악 특수 SUV</td><td>약 70만원 ~ 100만원</td><td>별도 견적 문의</td></tr>
+      <tr><td>17</td><td>넥센 넥스트레벨</td><td>엔페라 슈프림</td><td>올시즌 프리미엄 세단</td><td>전천후 안락 세단</td><td>약 60만원 ~ 90만원</td><td>월 16,000원 ~ 24,000원</td></tr>
+      <tr><td>18</td><td>넥센 넥스트레벨</td><td>엔페라 슈프림 SUV</td><td>올시즌 프리미엄 SUV</td><td>정숙성 패밀리 SUV</td><td>약 68만원 ~ 102만원</td><td>월 18,000원 ~ 27,000원</td></tr>
+      <tr><td>19</td><td>넥센 넥스트레벨</td><td>엔페라 AU7</td><td>초고성능 플래그십 세단</td><td>제네시스 G90, K9, 수입 대형</td><td>약 85만원 ~ 130만원</td><td>월 24,000원 ~ 35,000원</td></tr>
+      <tr><td>20</td><td>넥센 넥스트레벨</td><td>로디안 GTX</td><td>가성비 올시즌 SUV</td><td>출퇴근용 도심형 SUV</td><td>약 52만원 ~ 76만원</td><td>월 14,000원 ~ 21,000원</td></tr>
+      <tr><td>21</td><td>미쉐린</td><td>X-ICE SNOW</td><td>글로벌 노르딕 플래그십</td><td>수입 및 국산 고급 세단</td><td>약 110만원 ~ 165만원</td><td>월 32,000원 ~ 46,000원</td></tr>
+      <tr><td>22</td><td>미쉐린</td><td>X-ICE SNOW SUV</td><td>글로벌 노르딕 프리미엄 SUV</td><td>수입 프리미엄 SUV 전차종</td><td>약 120만원 ~ 185만원</td><td>월 35,000원 ~ 51,000원</td></tr>
+      <tr><td>23</td><td>미쉐린</td><td>파일롯 알핀 5 (PA5)</td><td>초고성능 알파인 스포츠</td><td>포르쉐, M3, C63, 고출력차</td><td>약 140만원 ~ 230만원</td><td>월 40,000원 ~ 65,000원</td></tr>
+      <tr><td>24</td><td>미쉐린</td><td>파일롯 알핀 PA4</td><td>초고성능 알파인 전천후</td><td>고성능 스포츠 쿠페</td><td>약 130만원 ~ 210만원</td><td>월 38,000원 ~ 60,000원</td></tr>
+      <tr><td>25</td><td>콘티넨탈</td><td>윈터콘택트 TS 870</td><td>유럽 알파인 벤치마크</td><td>벤츠 C클래스, 아우디 A4</td><td>약 105만원 ~ 150만원</td><td>월 30,000원 ~ 43,000원</td></tr>
+      <tr><td>26</td><td>콘티넨탈</td><td>윈터콘택트 TS 870 P</td><td>대형 알파인 고성능</td><td>BMW 5시리즈, E클래스 대구경</td><td>약 120만원 ~ 175만원</td><td>월 34,000원 ~ 49,000원</td></tr>
+      <tr><td>27</td><td>콘티넨탈</td><td>바이킹콘택트 7</td><td>극지 노르딕 최상급</td><td>눈길 결빙 최고 접지력 요구차</td><td>약 115만원 ~ 170만원</td><td>월 33,000원 ~ 48,000원</td></tr>
+      <tr><td>28</td><td>브리지스톤</td><td>블리작 VRX2</td><td>일본 발포 고무 노르딕</td><td>빙판길 충격 흡수 세단</td><td>약 100만원 ~ 155만원</td><td>월 29,000원 ~ 44,000원</td></tr>
+      <tr><td>29</td><td>브리지스톤</td><td>블리작 DM-V3</td><td>노르딕 SUV 하이그립</td><td>랜드로버, 지프, 익스플로러</td><td>약 110만원 ~ 168만원</td><td>월 31,000원 ~ 47,000원</td></tr>
+      <tr><td>30</td><td>피렐리</td><td>스콜피온 윈터 2</td><td>이탈리아 명품 알파인 SUV</td><td>카이엔, 우루스, GLE, X6</td><td>약 145만원 ~ 240만원</td><td>월 42,000원 ~ 68,000원</td></tr>
+    </tbody>
+  </table>
+
+  <h2>6. 타이어렌탈 계약 시 필수 확인 조항 (위약금, 약정, 혜택, 보관)</h2>
+  <p>
+    타이어렌탈을 계약할 때는 단순 월 렌탈 요금뿐 아니라 약정 기간, 제휴카드 할인 폭, 중도 해지 위약금, 그리고 겨울철 스노우타이어 보관 서비스가 실질적으로 포함되어 있는지 세부 약관을 철저히 확인해야 합니다.
+  </p>
+
+  <h3>6.1 계약 약정 기간과 무약정 비교</h3>
+  <p>
+    일반적으로 타이어렌탈은 12개월(1년), 24개월, 36개월, 48개월 단위로 계약이 체결됩니다. 약정 기간이 길어질수록 월 납입 금액은 내려가지만 중도 해지 시 불리한 위약금 조건이 적용될 수 있습니다. 일부 업체에서 제공하는 무약정 혹은 단기 1년 약정 상품의 경우 월 요금은 다소 높으나 차량 매각 계획이 1~2년 이내인 운전자에게 훨씬 유리합니다.
+  </p>
+
+  <h3>6.2 중도 해지 위약금 산정 구조</h3>
+  <p>
+    타이어는 소모품의 특성을 지니고 있어 장착 후 주행이 이루어지면 즉시 중고품으로 가치가 하락합니다. 따라서 중도 해지 시 잔여 렌탈료 합산액의 20퍼센트에서 30퍼센트에 달하는 위약금과 더불어 초기 면제되었던 등록비(약 5만원 상당) 및 제품 회수 비용이 추가로 청구됩니다. 만약 차량을 중고차로 매매할 계획이 있다면 렌탈 계약 승계가 가능한지 사전에 고객센터에 확인해야 합니다.
+  </p>
+
+  <div class="tip-panel">
+    <strong>렌탈 계약 체크포인트 3대 핵심</strong><br>
+    첫째, 연 2회 교체 시 탈부착 공임과 휠 밸런스 비용이 계약 기간 동안 전액 무료로 처리되는가?<br>
+    둘째, 사계절 타이어를 맡길 수 있는 전용 보관(타이어 호텔) 공간이 무상 지원되는가?<br>
+    셋째, 파손 시 무상 1회 교환을 지원하는 엔페라 프리미엄 또는 스마트 안심 케어 보증서가 발급되는가?
+  </div>
+
+  <h2>7. 동호회 및 커뮤니티 실차주 평가와 온라인 성지 좌표 공략법</h2>
+  <p>
+    자동차 마니아들이 활발히 활동하는 보배드림, 펨코(에펨코리아), 디시인사이드 차갤(자동차 갤러리) 등 온라인 커뮤니티에서 언급되는 스노우타이어 구매 및 렌탈 관련 내돈내산 솔직 후기를 분석하면 다음과 같은 실전 노하우가 집약됩니다.
+  </p>
+  <p>
+    커뮤니티 회원들이 꼽는 오프라인 장착의 가장 큰 위험 요소는 이른바 <strong>타이어 휠 고의 훼손</strong> 또는 <strong>덤터기 견적</strong>입니다. 과거 일부 불량 대리점에서 멀쩡한 휠을 스패너로 꺾거나 얼라인먼트 수치를 조작해 불필요한 하체 부품 수리를 유도했던 사건 이후, 최근에는 본인이 직접 유튜브나 다이렉트 가격 비교 앱을 통해 가격표를 완전히 숙지한 뒤 방문하는 것이 정석으로 통합니다.
+  </p>
+  <p>
+    디시와 보배드림에서 공유되는 이른바 <strong>수도권 타이어 성지 좌표</strong>들의 특징은 타이어 유통 도매 창고를 직영으로 운영하며 박리다매 형태로 판매하는 곳들입니다. 인천 가좌동, 일산 식사동, 성남 분당 외곽, 대구 침산동, 부산 감전동 일대의 전문 창고형 매장에서는 네이버 최저가에 근접한 금액으로 공임나라 규격 공임표에 맞춰 정확히 장착해 주는 곳들이 성지로 추천되고 있습니다.
+  </p>
+  <p>
+    반면 렌탈 서비스에 대해서는 보배드림 등에서 <strong>제휴 신용카드 실적 30만원 충족 시 월 1만원대 중반 이하</strong>로 프리미엄 윈터타이어와 보관 패키지를 누릴 수 있어, 귀찮은 타이어 적재나 이고 다니는 수고를 덜어주는 현실적인 해결책이라는 긍정적 평가가 우세합니다.
+  </p>
+
+  <h2>8. 2026 전기차 전용 스노우타이어 요구 규격 및 차별점</h2>
+  <p>
+    전기차(EV) 보급률이 급증한 2026년 현재, 전기차에 일반 내연기관용 윈터타이어를 무심코 장착했다가 심각한 마모와 주행거리 급감 문제를 겪는 사례가 늘고 있습니다. 전기차는 배터리팩으로 인해 동급 내연기관 차량보다 300kg에서 500kg가량 무거우며, 모터 특유의 제로(0) rpm 순간 최대 토크가 바퀴로 즉각 쏟아집니다.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>성능 비교 지표</th>
+        <th>일반 내연기관용 스노우타이어</th>
+        <th>전기차 전용 스노우타이어 (예: 한국 iON i'cept)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>하중 지수 지지력</td>
+        <td>일반 규격 (Standard Load)</td>
+        <td>고하중 전용 규격 (HL 또는 Extra Load 강화)</td>
+      </tr>
+      <tr>
+        <td>고무 컴파운드 내마모성</td>
+        <td>기본 유연성 실리카 컴파운드</td>
+        <td>고밀도 고내마모 폴리머 배합 (마모 수명 25% 증대)</td>
+      </tr>
+      <tr>
+        <td>실내 유입 노면 소음</td>
+        <td>블록 패턴에 따른 고주파 트레드음 발생</td>
+        <td>내부 폴리우레탄 폼 흡음재 삽입 (최대 9dB 저감)</td>
+      </tr>
+      <tr>
+        <td>회전저항 (전비 영향)</td>
+        <td>접지력 위주 설계로 전비 10~15% 하락</td>
+        <td>친환경 저회전저항 설계로 전비 하락 5% 내외 방어</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>
+    따라서 테슬라 모델 3, 모델 Y, 현대 아이오닉 5/6, 기아 EV6/EV9, 제네시스 GV60 등 전기차 차주라면 타이어 사이드월에 EV 전용 마크가 표기되어 있는지 반드시 확인하고 선택해야 조기 마모와 전비 급락을 방지할 수 있습니다.
+  </p>
+
+  <h2>9. 실시간 스노우타이어 렌탈 대 구매 견적 계산기</h2>
+  <p>
+    아래 계산기를 통해 본인이 장착할 휠 인치 규격, 연간 주행거리, 제휴카드 사용 여부, 보관 서비스 필요 여부를 입력하여 일시불 구매와 타이어렌탈 간의 3년 총소유비용(TCO)을 즉시 시뮬레이션해 보십시오.
+  </p>
+
+  <div class="calculator-box">
+    <h3 style="margin-top: 0; color: #1e3a8a;">스노우타이어 3년 총유지비용 정밀 비교 계산기</h3>
+
+    <div class="form-group">
+      <label for="calc-wheel-size">타이어 휠 인치 규격 선택</label>
+      <select id="calc-wheel-size">
+        <option value="17">17인치 준중형 규격 (215/50R17 등)</option>
+        <option value="18" selected>18인치 중형 기본 규격 (235/45R18, 225/45R18 등)</option>
+        <option value="19">19인치 중대형/준대형 규격 (245/45R19, 245/40R19 등)</option>
+        <option value="20">20인치 이상 대형 세단 및 대형 SUV 규격 (255/40R20, 275/40R20 등)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="calc-plan-brand">희망 브랜드 및 등급</label>
+      <select id="calc-plan-brand">
+        <option value="kor_mid" selected>국산 프리미엄 알파인 (한국 에보3, 금호 WP72, 넥센 윈가드스포츠2)</option>
+        <option value="kor_ev">국산 전기차 전용 윈터 (한국 아이온 아이셉트 계열)</option>
+        <option value="imp_lux">수입 프리미엄 윈터 (미쉐린 X-ICE, 콘티넨탈 TS870)</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="calc-storage">타이어 호텔 보관 서비스 이용 여부</label>
+      <select id="calc-storage">
+        <option value="yes" selected>보관 서비스 필요 (연 2회 교체 보관비 발생)</option>
+        <option value="no">자택 베란다 또는 개인 창고 직접 보관</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="calc-card-discount">타이어 제휴 신용카드 전월 실적 할인 적용</label>
+      <select id="calc-card-discount">
+        <option value="none">미적용 (일반 결제)</option>
+        <option value="card_30" selected>전월 실적 30만원 충족 (월 13,000원 청구 할인)</option>
+        <option value="card_70">전월 실적 70만원 충족 (월 16,000원 청구 할인)</option>
+      </select>
+    </div>
+
+    <button type="button" class="btn-calc" onclick="runTireCostCalculation()">총비용 견적 계산하기</button>
+
+    <div id="calc-output" class="calc-result">
+      <h4>36개월 총소유비용 시뮬레이션 결과</h4>
+      <p id="out-direct-cost">일시불 구매 총비용: 계산 중...</p>
+      <p id="out-rental-cost">타이어렌탈 총비용: 계산 중...</p>
+      <p id="out-difference" style="font-weight: 700; color: #1e3a8a;">절감 차액 분석: 계산 중...</p>
+      <p style="font-size: 0.88rem; color: #64748b; margin-top: 10px;">
+        알림: 위 계산 결과는 표준 공임 및 평균 소비자가격을 토대로 산정된 예상 수치이며, 장착 지점 및 프로모션 카드사에 따라 실 청구액과 미세한 차이가 발생할 수 있습니다.
+      </p>
+    </div>
+  </div>
+
+  <h2>10. 타이어 호텔 보관 서비스 이용 체계 및 장착 전문점 안내</h2>
+  <p>
+    스노우타이어 운용의 가장 큰 진입 장벽 중 하나는 바로 <strong>기존 사계절 타이어 4본을 봄여름가을 동안 어디에 보관할 것인가</strong>입니다. 타이어 4본은 부피가 거대하여 일반 아파트 베란다나 실내 창고에 적재하기 곤란하며, 직사광선과 고온 다습한 환경에 노출되면 고무 경화가 촉진되어 수명이 반토막 납니다.
+  </p>
+  <p>
+    타이어 호텔 보관 서비스는 항온, 항습, 암실 시설을 갖춘 전용 집하 물류센터에서 바코드 시스템을 통해 고객의 타이어를 6개월에서 1년간 안전하게 위탁 보관해 주는 서비스입니다.
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>보관 형태 및 서비스명</th>
+        <th>운영 주체</th>
+        <th>연간 평균 보관 비용</th>
+        <th>보관 환경 및 장점</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>티스테이션 all my T 스마트 보관</td>
+        <td>한국타이어 직영 및 가맹점</td>
+        <td>연간 60,000원 ~ 100,000원 (행사 시 무료)</td>
+        <td>중앙 집중 실내 물류창고, 바코드 관리, 상태 점검 리포트</td>
+      </tr>
+      <tr>
+        <td>넥스트레벨 타이어 호텔</td>
+        <td>넥센타이어 렌탈 멤버십</td>
+        <td>렌탈 패키지 결합 시 무상 지원 혜택</td>
+        <td>본사 직영 물류 배송 연동, 계절 교체 시 무상 탈부착 매칭</td>
+      </tr>
+      <tr>
+        <td>일반 카센터 및 공임나라 위탁</td>
+        <td>개별 정비업체 및 사설 매장</td>
+        <td>1회(6개월)당 40,000원 ~ 60,000원</td>
+        <td>매장 옥상 또는 외부 컨테이너 보관 시 환경 변수 존재 주의</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>11. AI 및 디지털 플랫폼을 활용한 타이어 최적 탐색 기법</h2>
+  <p>
+    스노우타이어를 제일 저렴하게 맞춤 견적으로 장착하려면 다양한 디지털 플랫폼과 생성형 AI 도구를 적재적소에 결합하여 활용해야 합니다.
+  </p>
+  <p>
+    우선 <strong>네이버 쇼핑</strong>과 <strong>다나와</strong>를 통해 본인 차량의 타이어 단면폭, 편평비, 림 직경(예: 245/45R19)을 필터링하여 실시간 온라인 최저가 좌표를 파악합니다. 이때 단순 제품가에 현혹되지 말고 무료 배송 및 지정 장착점 무료 공임 포함 여부를 꼼꼼히 비교해야 합니다.
+  </p>
+  <p>
+    스마트폰 <strong>토스 앱의 내 차 시세 및 자동차 관리 탭</strong>, <strong>카카오톡 알림톡 예약 채널</strong>을 활용하면 주변 반경 5km 이내의 공식 직영점별 스노우타이어 보유 재고 현황을 실시간으로 조회할 수 있습니다. 특히 11월 블랙프라이데이 시즌에는 모바일 앱 전용 선착순 장착 할인 쿠폰이나 주유 상품권, 네이버페이 포인트 캐시백 프로모션이 집중됩니다.
+  </p>
+  <p>
+    나아가 <strong>챗지피티(ChatGPT)</strong>나 <strong>구글 제미나이(Gemini)</strong> 등 최신 AI 검색 모델에게 "내 차 차종은 2026 GV70 2.5T이고 타이어 규격은 235/55R19인데, 수도권 출퇴근 위주에 가끔 강원도 스키장을 방문할 때 가장 경제적인 윈터타이어 모델 3개와 렌탈 요금표를 비교해 줘"라고 질문하면 복잡한 검색 과정 없이 자신에게 가장 적합한 라인업과 예상 유지비용을 몇 초 만에 일목요연하게 컨설팅받을 수 있습니다.
+  </p>
+
+  <h2>12. 자주 묻는 질문(FAQ) 12문 12답</h2>
+  <dl class="faq-list">
+    <dt>Q1. 스노우타이어는 눈이 올 때만 효과가 있나요?</dt>
+    <dd>아닙니다. 눈이 오지 않는 마른 노면이라도 기온이 영상 7도 이하로 내려가면 일반 사계절 타이어보다 고무 유연성이 우수하여 더 짧은 제동거리와 안정적인 접지력을 보장합니다.</dd>
+
+    <dt>Q2. 전륜구동이나 후륜구동 차량의 경우 구동축 2짝만 교체해도 되나요?</dt>
+    <dd>절대 금물입니다. 앞바퀴나 뒷바퀴 2짝만 스노우타이어로 교체할 경우 앞뒤 바퀴의 마찰력 편차로 인해 코너링 시 오버스티어(차량 뒤가 털리는 현상)나 언더스티어가 극단적으로 발생하여 대형 스핀 사고를 유발합니다. 반드시 4본 모두 동일하게 교체해야 합니다.</dd>
+
+    <dt>Q3. 사륜구동(AWD, 4WD) 차량인데 스노우타이어가 꼭 필요한가요?</dt>
+    <dd>사륜구동 시스템은 미끄러운 노면에서 앞으로 출발하고 가속하는 능력만 도와줄 뿐입니다. 제동 시에는 구동 방식과 무관하게 4바퀴 타이어와 지면 사이의 마찰계수만으로 멈춰서야 하므로, 사륜구동 차량 역시 스노우타이어 장착이 필수적입니다.</dd>
+
+    <dt>Q4. 스노우타이어를 봄여름에도 교체하지 않고 계속 타면 어떻게 되나요?</dt>
+    <dd>기온이 높은 봄과 여름에 스노우타이어를 장착하고 주행하면 부드러운 고무 컴파운드가 지열에 녹아내리듯 급격히 이상 마모되며, 연비가 대폭 저하되고 제동거리가 일반 타이어보다 오히려 길어지는 역효과가 발생합니다.</dd>
+
+    <dt>Q5. 스노우타이어의 평균 수명과 교체 주기는 얼마인가요?</dt>
+    <dd>겨울철 3~4개월씩 4~5시즌(약 3만~4만km) 정도 사용하는 것이 일반적입니다. 트레드 홈 깊이가 신품 대비 50퍼센트 이하(홈 깊이 4mm 미만)로 마모되면 스노우 사이프의 눈길 웅켜쥠 기능이 상실되므로 교체가 요구됩니다.</dd>
+
+    <dt>Q6. 타이어렌탈 계약 후 차량을 중고로 처분하게 되면 어떻게 처리하나요?</dt>
+    <dd>차량 양수인에게 타이어렌탈 계약을 승계하거나, 남은 기간의 잔여 렌탈료 중 일부를 위약금으로 정산하고 완납한 후 계약을 정상 해지할 수 있습니다.</dd>
+
+    <dt>Q7. 타이어렌탈 제휴카드 할인은 어떻게 적용받나요?</dt>
+    <dd>렌탈 신청 시 본인 명의의 렌탈사 제휴 신용카드로 자동이체를 등록한 뒤, 매월 전월 실적 기준(보통 30만원 이상)을 충족하면 결제 대금에서 13,000원에서 최대 20,000원까지 청구 할인됩니다.</dd>
+
+    <dt>Q8. 올웨더(All-Weather) 타이어로 스노우타이어를 완전히 대체할 수 있나요?</dt>
+    <dd>유럽 3PMSF 인증을 받은 미쉐린 크로스클라이밋2(CC2)나 한국 키너지 4S2 같은 올웨더 타이어는 수도권 도심의 가벼운 눈길에서는 충분한 방어력을 제공합니다. 하지만 폭설 지대나 영하 10도 이하의 빙판길에서는 순수 스노우타이어의 성능에 미치지 못합니다.</dd>
+
+    <dt>Q9. 스노우타이어 장착 후 고속도로 주행 시 속도 제한이 있나요?</dt>
+    <dd>알파인 타이어는 통상 시속 210km(H등급)까지 안정 주행이 가능하나, 노르딕 타이어는 안전 속도 한계가 통상 160~190km(Q, T등급)로 낮게 설정되어 있으므로 과속을 지양해야 합니다.</dd>
+
+    <dt>Q10. 타이어 호텔 보관 시 타이어 변형이나 손상 위험은 없나요?</dt>
+    <dd>공식 인증 실내 보관 센터에서는 타이어를 수직 또는 규격 적재함에 맞추어 보관하며 직사광선과 오존 접촉을 완벽히 차단하므로 노지 방치보다 월등히 안전하게 원형을 보존할 수 있습니다.</dd>
+
+    <dt>Q11. 스노우타이어 공기압은 겨울철에 어떻게 조절해야 하나요?</dt>
+    <dd>기온이 10도 하강할 때마다 타이어 내부 공기압은 약 1~2 psi씩 자연 감소합니다. 따라서 겨울철에는 차량 제조사 권장 적정 공기압보다 약 5%에서 10%가량 높여 주입하는 것이 타이어 변형 및 편마모 예방에 좋습니다.</dd>
+
+    <dt>Q12. 온라인 인터넷 주문 시 타이어 제조일자(DOT)는 어떻게 확인하나요?</dt>
+    <dd>타이어 사이드월 타원형 안에 표기된 4자리 숫자로 확인합니다. 예컨대 3525라고 각인되어 있다면 2025년 35주차에 생산된 최신 규격 제품임을 의미합니다.</dd>
+  </dl>
+
+  <div class="keyword-cloud">
+    <h4>본 가이드에서 다룬 통합 검색 및 연관 키워드</h4>
+    <span>스노우타이어</span><span>윈터타이어</span><span>타이어렌탈</span><span>한국타이어 윈터 아이셉트</span>
+    <span>금호타이어 윈터크래프트</span><span>넥센 넥스트레벨</span><span>미쉐린 X-ICE</span><span>콘티넨탈 바이킹콘택트</span>
+    <span>제동거리</span><span>블랙아이스</span><span>타이어호텔</span><span>보관비용</span><span>공임비</span>
+    <span>요금표</span><span>가격비교</span><span>견적계산기</span><span>장점과단점</span><span>내돈내산후기</span>
+    <span>보배드림</span><span>에펨코리아</span><span>디시인사이드</span><span>네이버페이</span><span>토스</span>
+    <span>챗지피티</span><span>제미나이</span><span>전기차스노우타이어</span><span>알파인</span><span>노르딕</span>
+    <span>3PMSF</span><span>휠얼라인먼트</span><span>위약금</span><span>약정기간</span><span>제휴카드할인</span>
+  </div>
+
+  <div class="reference-section">
+    <h4>공식 데이터 출처 및 공인 기술 문서 안내</h4>
+    <ul>
+      <li>
+        <a href="https://tirerentstrustm.koreahankang.com" target="_blank" rel="noopener noreferrer">
+          모빌리티 테크 리포트 - 스노우타이어 및 윈터 규격 분석 데이터베이스
+        </a>: 사계절 대비 동절기 타이어 마찰계수 시험 분석 표준안 제공
+      </li>
+      <li>
+        <a href="https://www.ts2020.kr" target="_blank" rel="noopener noreferrer">
+          한국교통안전공단 (TS) 자동차안전연구원
+        </a>: 혹한기 도로 노면별 제동거리 실측 시험 보고서 및 교통안전 규정
+      </li>
+      <li>
+        <a href="https://www.koroad.or.kr" target="_blank" rel="noopener noreferrer">
+          도로교통공단 안전운전 통합민원
+        </a>: 동절기 블랙아이스 결빙 구간 안전 운전 수칙 및 사고 예방 기술 지침
+      </li>
+    </ul>
+  </div>
+</div>
+
+<script>
+function runTireCostCalculation() {
+  const wheelSize = document.getElementById("calc-wheel-size").value;
+  const brandPlan = document.getElementById("calc-plan-brand").value;
+  const needStorage = document.getElementById("calc-storage").value;
+  const cardDiscount = document.getElementById("calc-card-discount").value;
+
+  let baseTirePrice = 700000;
+  if (wheelSize === "17") baseTirePrice = 580000;
+  else if (wheelSize === "18") baseTirePrice = 740000;
+  else if (wheelSize === "19") baseTirePrice = 960000;
+  else if (wheelSize === "20") baseTirePrice = 1350000;
+
+  if (brandPlan === "kor_ev") {
+    baseTirePrice = Math.round(baseTirePrice * 1.25);
+  } else if (brandPlan === "imp_lux") {
+    baseTirePrice = Math.round(baseTirePrice * 1.55);
+  }
+
+  const directInstallFee = 80000;
+  const wheelAlignFee = 60000;
+  let yearlyStorage = 0;
+  if (needStorage === "yes") {
+    yearlyStorage = 80000;
+  }
+
+  const threeYearStorage = yearlyStorage * 3;
+  const directTotalCost = baseTirePrice + directInstallFee + (wheelAlignFee * 2) + threeYearStorage;
+
+  let monthlyRentalBase = Math.round(baseTirePrice / 34);
+  if (needStorage === "yes") {
+    monthlyRentalBase += 2000;
+  }
+
+  let monthlyDiscount = 0;
+  if (cardDiscount === "card_30") {
+    monthlyDiscount = 13000;
+  } else if (cardDiscount === "card_70") {
+    monthlyDiscount = 16000;
+  }
+
+  const actualMonthlyPaid = Math.max(0, monthlyRentalBase - monthlyDiscount);
+  const rentalTotalCost = actualMonthlyPaid * 36;
+
+  const costDiff = directTotalCost - rentalTotalCost;
+
+  document.getElementById("out-direct-cost").innerText =
+    "일시불 구매 및 개별 정비 시 3년 총소유비용: " + directTotalCost.toLocaleString() + "원 (타이어값 + 공임 + 보관료 포함)";
+
+  document.getElementById("out-rental-cost").innerText =
+    "타이어렌탈 36개월 약정 시 실납입 총비용: " + rentalTotalCost.toLocaleString() + "원 (월 " + actualMonthlyPaid.toLocaleString() + "원 납부 기준)";
+
+  const diffElem = document.getElementById("out-difference");
+  if (costDiff > 0) {
+    diffElem.innerText =
+      "혜택 분석: 제휴 혜택 적용 타이어렌탈 이용 시 약 " + costDiff.toLocaleString() + "원이 더 절약됩니다.";
+    diffElem.style.color = "#16a34a";
+  } else {
+    diffElem.innerText =
+      "혜택 분석: 무할인 순수 현금 일시불 구매 시 약 " + Math.abs(costDiff).toLocaleString() + "원이 더 절약됩니다.";
+    diffElem.style.color = "#2563eb";
+  }
+
+  document.getElementById("calc-output").style.display = "block";
+}
+</script>
+
+  
